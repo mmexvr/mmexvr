@@ -1,0 +1,17 @@
+main {
+  display: flex;
+  padding-top: 100px;
+  // padding: 50px 50px 50px;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  main {
+    flex-wrap: wrap;
+  }
+}
+
+.sidebar {
+  padding: 0 20px;
+  flex-basis: 100px;
+}
